@@ -19,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -27,7 +30,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1tkjwOd93MQTSuqnGjAv31bHjGP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitAndrey/datastructures" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -50,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkLister">
+  <component name="RunManager" selected="Application.NodaStack">
     <configuration name="LinkLister$Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructures.List.LinkLister$Node" />
       <module name="Data Structures" />
@@ -70,6 +75,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.datastructures.List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodaStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructures.stack.NodaStack" />
+      <module name="Data Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datastructures.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,36 +123,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.addToListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.datastructures.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.datastructures.list" />
-      <option name="MAIN_CLASS_NAME" value="com.datastructures.list.ListTest" />
-      <option name="METHOD_NAME" value="addToListTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.ListTest.addToListTest" />
       <item itemvalue="JUnit.ListTest" />
       <item itemvalue="Application.VStack" />
       <item itemvalue="Application.LinkLister$Node" />
       <item itemvalue="Application.LinkLister" />
+      <item itemvalue="Application.NodaStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NodaStack" />
         <item itemvalue="Application.LinkLister" />
         <item itemvalue="Application.LinkLister$Node" />
         <item itemvalue="Application.VStack" />
         <item itemvalue="JUnit.ListTest" />
-        <item itemvalue="JUnit.ListTest.addToListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,5 +152,16 @@
       <updated>1623320218867</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

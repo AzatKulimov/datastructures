@@ -24,6 +24,11 @@ public class Simplestack<T> implements Stack<T> {
     }
 
     @Override
+    public T peak() {
+        return null;
+    }
+
+    @Override
     public String toString() {
         return "Simplestack{" +
                 "objects=" + Arrays.toString(objects) +

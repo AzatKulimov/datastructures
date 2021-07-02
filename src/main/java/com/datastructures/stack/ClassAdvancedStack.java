@@ -42,4 +42,9 @@ public ClassAdvancedStack(int size){
 
         return null;
     }
+
+    @Override
+    public T peak() {
+        return null;
+    }
 }
